@@ -43,6 +43,7 @@ Temporary Items
 # dependencies
 /node_modules
 **/node_modules
+web/ui/node_modules
 /.pnp
 .pnp.js
 

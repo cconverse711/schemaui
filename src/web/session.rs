@@ -452,6 +452,7 @@ fn encode_value(
                 Ok(toml::to_string(value)?)
             }
         }
+        #[allow(unreachable_patterns)]
         #[cfg(all(not(feature = "yaml"), not(feature = "toml")))]
         _ => Err(anyhow!("unsupported format")),
     }

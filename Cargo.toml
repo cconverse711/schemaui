@@ -21,9 +21,19 @@ exclude = [
     "docs/**/*.gif",
     "docs/**/*.mp4",
 ]
+include = [
+    "Cargo.toml",
+    "keymap/default.keymap.json",
+    "src/**",
+    "web/dist/**",
+    "README.md",
+    "README.ZH.md",
+    "LICENSE*",
+    "justfile",
+]
 
 [features]
-default = ["tui", "json"]
+default = ["tui", "web", "json"]
 full = ["all_formats", "tui", "web"]
 tui = []
 web = ["dep:include_dir", "dep:axum", "dep:tokio", "dep:ts-rs"]
