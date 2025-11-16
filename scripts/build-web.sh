@@ -13,8 +13,9 @@ pushd "$UI_DIR" >/dev/null
 
 # Ensure a clean install each time and avoid leaving node_modules in the repo.
 rm -rf node_modules
-npm ci
+npm ci --quiet
 npm run build
 rm -rf node_modules
 
 popd >/dev/null
+rm -rf "$UI_DIR/node_modules"
