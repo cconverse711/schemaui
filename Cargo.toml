@@ -21,16 +21,6 @@ exclude = [
     "docs/**/*.gif",
     "docs/**/*.mp4",
 ]
-include = [
-    "Cargo.toml",
-    "keymap/default.keymap.json",
-    "src/**",
-    "web/dist/**",
-    "README.md",
-    "README.ZH.md",
-    "LICENSE*",
-    "justfile",
-]
 
 [features]
 default = ["tui", "web", "json"]
