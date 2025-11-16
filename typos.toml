@@ -2,7 +2,15 @@
 # https://github.com/crate-ci/typos
 
 [files]
-extend-exclude = ["target/", "Cargo.lock", ".git/", "*.svg", "*.png", "*.jpg"]
+extend-exclude = [
+    "target/",
+    "Cargo.lock",
+    ".git/",
+    "*.svg",
+    "*.png",
+    "*.jpg",
+    "index.html",
+]
 
 [default]
 locale = "en"
