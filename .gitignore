@@ -8,6 +8,7 @@ docs/**/*.md
 docs/**/*.txt
 docs/**/*.gif
 docs/**/*.cast
+!docs/schemaui.asciinema.cast
 !docs/**/cli_usage*.md
 !docs/**/structure_design*.md
 !docs/**/tui-architecture-overview.md
@@ -131,8 +132,10 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+/lib/
 lib64/
+!lib/utils.ts
+!web/ui/src/lib/utils.ts
 parts/
 sdist/
 var/
