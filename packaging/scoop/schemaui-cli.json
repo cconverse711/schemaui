@@ -1,16 +1,16 @@
 {
-    "version": "0.4.3",
+    "version": "0.5.0",
     "description": "CLI wrapper for schemaui, rendering JSON Schemas as TUIs",
     "homepage": "https://github.com/YuniqueUnic/schemaui",
     "license": "MIT OR Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/YuniqueUnic/schemaui/releases/download/schemaui-cli-v0.4.3/schemaui-x86_64-pc-windows-msvc.zip",
-            "hash": "2af6745921ce67fdf888a5d137dd19cdc92568991237b06082a36a9eed6247c9"
+            "url": "https://github.com/YuniqueUnic/schemaui/releases/download/schemaui-cli-v0.5.0/schemaui-x86_64-pc-windows-msvc.zip",
+            "hash": "c2978b0901f121a6d1267f2247f442905c61514c8906458ca4dc7c3bcc1e739f"
         },
         "arm64": {
-            "url": "https://github.com/YuniqueUnic/schemaui/releases/download/schemaui-cli-v0.4.3/schemaui-aarch64-pc-windows-msvc.zip",
-            "hash": "d8a9aa8b78e45e403b53b004d797957def5d97c83185c1227c3c8ebf2301c1de"
+            "url": "https://github.com/YuniqueUnic/schemaui/releases/download/schemaui-cli-v0.5.0/schemaui-aarch64-pc-windows-msvc.zip",
+            "hash": "c233ec834776e80013fdd046677491cacf4540bd451b69e9c89b076af91b1b91"
         }
     },
     "bin": "schemaui.exe",
